@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Dropdown from './Dropdown'
 
 const navigation = [
   { name: 'Home', href: '#' },
@@ -17,8 +18,8 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className=" text-white ">
-      <header className="absolute inset-x-0 top-0 z-50 bg-black text-white">
+    <div className=" text-white  ">
+      <header className="absolute inset-x-0 top-0 z-50 bg-black text-white  lg:px-20">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -51,7 +52,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <div className='border border-zinc-700 py-2 px-6 rounded-3xl bg-neutral-200 text-black'>
                 <button className='flex gap-1 items-center' >
-                  <img src="wallet.png"width={25} />
+                  <img src="walleticon.png"width={25} />
                   <a href="#" className="text-sm font-semibold leading-6 text-white-900">Wallet Connect</a>
                 </button>
               </div>

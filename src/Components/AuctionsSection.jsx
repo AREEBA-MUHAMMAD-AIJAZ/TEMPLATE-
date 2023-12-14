@@ -46,7 +46,7 @@
 //////////////////////////////////////////
 
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper , SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar, A11y } from 'swiper/modules';
 import "swiper/css";
 import 'swiper/css/navigation';
@@ -114,6 +114,7 @@ const LiveAuction = () => {
               <h3>1 of 1</h3>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
             
                 <img
@@ -122,11 +123,11 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-2 text-sm">
-                <p>DATE <br /> 23</p>
-                <p>HOUR <br /> 24</p>
-                <p>MINUTE <br /> 60</p>
-                <p>SECONDS <br />55</p>
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
               <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
@@ -142,7 +143,268 @@ const LiveAuction = () => {
               </div>
 
           </SwiperSlide>
-        
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-1.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-2.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-1.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-2.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar5.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-3.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-4.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar3.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-1.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-1.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#212529] rounded-xl p-7 text-center">
+                
+                <img
+                  src="auction-4.jpg"
+                  alt=""
+                  className="mx-auto mb-5 rounded-md"
+                />
+
+              <div className="flex gap-3 text-xs">
+                <p>DATE <br /> <strong>23</strong> </p>
+                <p>HOUR <br /> <strong>04</strong></p>
+                <p>MINUTE <br /> <strong>55</strong></p>
+                <p>SECONDS <br /><strong>60</strong></p>
+              </div>
+
+              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+
+              <div className="flex items-center" >
+                <img src="auction-4.jpg" className="rounded-full w-16 h-16"/>
+                <h1 className="ml-2 font-semibold">@Richard</h1>
+              </div>
+            
+              <div className="flex justify-between mt-5 font-semibold">
+              <h3>1.5 BNB</h3>
+              <h3>1 of 1</h3>
+              </div>
+
+          </SwiperSlide>
+            
           
         </Swiper>
       </div>
