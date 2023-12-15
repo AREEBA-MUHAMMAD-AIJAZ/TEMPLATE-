@@ -15,7 +15,7 @@ const Footer = () => {
               non, fugit totam vel laboriosam vitae.
             </p>
 
-            <div className="flex justify-evenly">
+            <div className="flex flex-col gap-3 items-center md:flex-row">
                 <img src="facebook.png" width={50} className="h-12" />
                 <img src="social.png"  width={50} className="h-12"  />
                 <img src="telegram.png" width={50} className="h-12"   />
@@ -84,7 +84,7 @@ const Footer = () => {
           <p class="text-lg  sm:text-center">
             ©2021 Netstrom All Rights Reserved.
           </p>
-          <span className="font-semibold text-3xl">www.DownloadNewTheme.com</span>
+          <span className="font-semibold text-1xl md:text-3xl">www.DownloadNewTheme.com</span>
           <span class="text-lg font-semibold sm:text-center">
             Made by Areeba Aijaz!
           </span>

@@ -34,11 +34,11 @@ function HowItWorks() {
     <div>
       <div className="text-[#fff]">
         <div className="lg:flex justify-between w-[90%] mx-auto  pt-20">
-          <h1 className=" text-2xl md:text-4xl font-bold mb-5">
+          <h1 className=" text-2xl md:text-4xl font-bold mb-5 px-10">
             Create and sell your NFTs
           </h1>
         </div>
-        <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[90%] mx-auto p-2 pt-9">
+        <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[85%] mx-auto p-2 pt-9">
           {cards.map((cards, index) => (
             <div  key={index} >
               <div>

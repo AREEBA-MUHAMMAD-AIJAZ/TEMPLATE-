@@ -35,7 +35,7 @@ function ExclusiveArtist() {
   return (
     <div>
       <div className="text-[#fff]">
-        <div className="lg:flex justify-between w-[88%] mx-auto m-5 pt-20">
+        <div className="lg:flex justify-between w-[80%] mx-auto m-5 pt-20">
           <h1 className=" text-2xl md:text-4xl font-bold mb-5">Explore</h1>
           <a
             href="#"
@@ -44,9 +44,9 @@ function ExclusiveArtist() {
             View all <span>&rarr;</span>
           </a>
         </div>
-        <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[90%] mx-auto p-2">
+        <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[85%] mx-auto p-2">
           {cards.map((cards, index) => (
-            <div  key={index}  className="p-6 bg-[#212529] h-[460px]">
+            <div  key={index}  className="p-3 bg-[#212529] h-[460px]">
               <div>
                 <img
                   src={cards.img}

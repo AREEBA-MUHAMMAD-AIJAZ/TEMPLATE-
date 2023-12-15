@@ -58,41 +58,41 @@ import { Pagination } from "swiper/modules";
 const LiveAuction = () => {
   return (
     <>
-      <div className="w-[1500px] p-40">
+     <div className="container m-0 px-4 md:px-10  xl:px-28 pt-32 mx-10 xl:mx-0">
         <Swiper
-          breakpoints={{
-            1024: {
-              width: 1160,
-              slidesPerView: 4,
-            },
-            768: {
-              width: 900,
-              slidesPerView: 3,
-            },
-            425: {
-              width: 300,
-              slidesPerView: 1,
-            },
-            375: {
-              width: 375,
-              slidesPerView: 1,
-            },
-            320: {
-              width: 320,
-              slidesPerView: 1,
-            },
-          }}
-            spaceBetween={40}
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            slidesPerView={3}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            className="mySwiper xl:mx-20 xl:py-20 lg:py-20 lg:mx-24 mx-1 md:px-5 md:pt-5 px-4 pt-5 text-white"
-            >
+        breakpoints={{
+          1024: {
+            width: 1220,
+            slidesPerView: 4,
+          },
+          768: {
+            width: 900,
+            slidesPerView: 3,
+          },
+          425: {
+            width: 300,
+            slidesPerView: 1,
+          },
+          375: {
+            width: 375,
+            slidesPerView: 1,
+          },
+          320: {
+            width: 320,
+            slidesPerView: 1,
+          },
+        }}
+        spaceBetween={40}
+        modules={[Navigation, Scrollbar, A11y]}
+        slidesPerView={3}
+        navigation
+        scrollbar={{ draggable: true }}
+        className="mySwiper xl:mx-20 xl:py-20 lg:py-20 lg:mx-24 mx-1 md:px-5 md:pt-5 pt-5 text-white"
+        >
+
 
           <SwiperSlide className="bg-[#212529] rounded-xl p-7">
-            <img
+             <img
               src="auction-1.jpg"
               alt=""
               className="mx-auto mb-5 rounded-md"
