@@ -53,7 +53,7 @@ function Herosection() {
               <br /> extraordinary NFTs
             </h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl :text-gray-400">
-              Explore on the world's best & largest NFT marketplace
+              Explore on the world best & largest NFT marketplace
             </p>
             <a
               href="#"
