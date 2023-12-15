@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   background: black
-}
-
-:root {
-  --bg-image: url('../../public/vector8.png');
 }
