@@ -58,7 +58,7 @@ import { Pagination } from "swiper/modules";
 const LiveAuction = () => {
   return (
     <>
-     <div className="container m-0 px-4 md:px-10  xl:px-28 pt-32 xl:mx-0 max-w-7xl">
+     <div className="container m-0 px-4 md:px-10  xl:px-28 pt-20 md:pt-32 xl:mx-0 max-w-7xl">
 
              <h2 className=" relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
              Auctions{" "}

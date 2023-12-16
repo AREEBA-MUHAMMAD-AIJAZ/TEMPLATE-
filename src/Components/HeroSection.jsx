@@ -41,7 +41,7 @@ import { SiAzuredataexplorer } from "react-icons/si";
 
 function Herosection() {
   return (
-      <section className="text-white bg-heroSection-image bg-no-repeat bg-cover xl:w-[1345px] pt-20 ">
+      <section className="text-white bg-heroSection-image bg-no-repeat bg-cover xl:w-[1345px] md:pt-20 pt-32  ">
         <div class="grid max-w-screen-xl md:px-16 px-8 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-36 ">
           <div class="mr-auto place-self-center lg:col-span-7">
             <h2 className=" py-2 relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
