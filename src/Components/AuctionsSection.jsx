@@ -58,7 +58,7 @@ import { Pagination } from "swiper/modules";
 const LiveAuction = () => {
   return (
     <>
-     <div className="container m-0 px-4 md:px-10  xl:px-28 pt-32 mx-10 xl:mx-0">
+     <div className="container m-0 px-4 md:px-10  xl:px-28 pt-32 xl:mx-0 max-w-7xl">
 
              <h2 className=" relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
              Auctions{" "}
@@ -91,21 +91,21 @@ const LiveAuction = () => {
             slidesPerView: 3,
           },
           425: {
-            width: 300,
+            width: 250,
             slidesPerView: 1,
           },
           375: {
-            width: 375,
+            width: 350,
             slidesPerView: 1,
           },
           320: {
-            width: 320,
+            width: 290,
             slidesPerView: 1,
           },
         }}
         spaceBetween={40}
         modules={[Navigation, Scrollbar, A11y]}
-        slidesPerView={3}
+        slidesPerView={4}
         navigation
         scrollbar={{ draggable: true }}
         className="mySwiper xl:mx-20 xl:py-20 lg:py-20 lg:mx-24 mx-1 md:px-5 md:pt-5 pt-5 text-white"
@@ -116,7 +116,7 @@ const LiveAuction = () => {
              <img
               src="auction-1.jpg"
               alt=""
-              className="mx-auto mb-5 rounded-md"
+              className="mx-auto md:mb-5 rounded-md"
             />
             <h1 className="mb-3 text-2xl font-semibold">Arts</h1>
             <div className="flex items-center">
@@ -130,7 +130,7 @@ const LiveAuction = () => {
                 <h1>MKHBolds</h1>
               </div>
             </div>
-            <div className="flex justify-between mt-5 font-semibold">
+            <div className="flex justify-between md:mt-5 font-semibold">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
             </div>
@@ -141,24 +141,24 @@ const LiveAuction = () => {
                 <img
                   src="auction-4.jpg"
                   alt=""
-                  className="mx-auto mb-5 rounded-md"
+                  className="mx-auto md:mb-5 mb-2 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="auction-4.jpg" className="rounded-full w-16 h-16"/>
                  <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
                <h3>1.5 BNB</h3>
                <h3>1 of 1</h3>
               </div>
@@ -173,21 +173,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -202,21 +202,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -231,21 +231,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -260,21 +260,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar5.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -289,21 +289,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -318,21 +318,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar3.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -347,21 +347,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar6.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -376,21 +376,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="avatar4.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>
@@ -405,21 +405,21 @@ const LiveAuction = () => {
                   className="mx-auto mb-5 rounded-md"
                 />
 
-              <div className="flex gap-3 text-xs">
+              <div className="flex md:gap-3 gap-2 text-xs">
                 <p>DATE <br /> <strong>23</strong> </p>
                 <p>HOUR <br /> <strong>04</strong></p>
                 <p>MINUTE <br /> <strong>55</strong></p>
                 <p>SECONDS <br /><strong>60</strong></p>
               </div>
 
-              <h1 className="mb-3 text-2xl font-semibold py-2">Virtual Worlds</h1>
+              <h1 className="md:mb-3 mb-1 text-2xl font-semibold py-2">Virtual Worlds</h1>
 
               <div className="flex items-center" >
                 <img src="auction-4.jpg" className="rounded-full w-16 h-16"/>
                 <h1 className="ml-2 font-semibold">@Richard</h1>
               </div>
             
-              <div className="flex justify-between mt-5 font-semibold">
+              <div className="flex justify-between md:mt-5 mt-2 font-semibold w-56">
               <h3>1.5 BNB</h3>
               <h3>1 of 1</h3>
               </div>

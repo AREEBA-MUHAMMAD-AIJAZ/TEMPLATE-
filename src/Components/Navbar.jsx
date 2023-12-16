@@ -19,7 +19,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className=" text-white  ">
+    <div className=" text-white bg-black  ">
       <header className="absolute inset-x-0 top-0 z-50 bg-black text-white max-w-7xl ml-6">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">

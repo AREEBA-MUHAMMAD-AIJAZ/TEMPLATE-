@@ -11,7 +11,7 @@ import Navbar from '@/Components/Navbar'
 const Front = () => {
   return (
     <div className='max-w-7xl'>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection/>
       <LiveAuction />
       <CreativeArtist />

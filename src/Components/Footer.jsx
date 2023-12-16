@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer class="bg-[#212529] text-center text-white lg:text-left pt-20">
-      <div class="mx-6 lg:py-10 text-center md:text-left">
+      <div class=" lg:py-10 text-center md:text-left">
         <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:px-24 md:px-16">
           <div>
             <img
@@ -15,25 +15,26 @@ const Footer = () => {
               non, fugit totam vel laboriosam vitae.
             </p>
 
-            <div className="flex flex-col gap-3 items-center md:flex-row">
-                <img src="facebook.png" width={50} className="h-12" />
-                <img src="social.png"  width={50} className="h-12"  />
-                <img src="telegram.png" width={50} className="h-12"   />
-                <img src="twitter.png"  width={50} className="h-12"  />
+            <div className="flex gap-3 justify-center  ">
+                <img src="facebook.png" width={40} className="h-10" />
+                <img src="social.png"  width={40} className="h-10"  />
+                <img src="telegram.png" width={40} className="h-10"   />
+                <img src="twitter.png"  width={40} className="h-10"  />
             </div>
           </div>
 
+          
           <div class="">
             <h6 class="mb-4 flex justify-center font-bold uppercase md:justify-start  text-xl">
               Useful Links
             </h6>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">All NFTs</a>
             </p>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">How It Works</a>
             </p>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">Create</a>
             </p>
             <p>
@@ -51,19 +52,20 @@ const Footer = () => {
             <p class="mb-5">
               <a href="#">Help Center</a>
             </p>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">Partners</a>
             </p>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">Suggestions</a>
             </p>
-            <p class="mb-4">
+            <p class="mb-3">
               <a href="#">Blog</a>
             </p>
             <p>
               <a href="#">Newsletter</a>
             </p>
           </div>
+
           <div>
             <h6 class="mb-4 flex justify-center font-bold uppercase md:justify-start text-xl">
               Subscribe Us
@@ -119,7 +121,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t-2 border-gray-500 w-[90%] mx-auto">
+      <div className="border-t-2 border-gray-500 w-[90%] mx-auto sm:hidden md:block hidden">
         <div class="px-4 py-6 md:flex md:items-center md:justify-between">
           <p class="text-lg  sm:text-center">
             ©2021 Netstrom All Rights Reserved.
