@@ -1,6 +1,8 @@
 "use client"
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
+import { CgSearch } from "react-icons/cg";
+
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
@@ -48,11 +50,16 @@ export default function Example() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <div className='border border-zinc-700 py-2 px-6 rounded-3xl bg-neutral-200 text-black'>
-                <button className='flex gap-1 items-center' >
+              <div className='pl-20 sm:hidden lg:block hidden'>
+                 <CgSearch />
+              </div>
+
+
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end ml-2">
+              <div className='border border-zinc-700 xl:py-2 xl:px-6 py-1 px-3 rounded-3xl bg-neutral-200 text-black'>
+                <button className='flex items-center md:gap-1' >
                   <img src="wallet.png"width={25} />
-                  <a href="#" className="text-sm font-semibold leading-6 text-white-900">Wallet Connect</a>
+                  <a href="#" className="text-sm font-bold text-white-900">Wallet Connect</a>
                 </button>
               </div>
           </div>

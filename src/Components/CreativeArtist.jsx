@@ -37,6 +37,13 @@ function CreativeArtist() {
   return (
     <div>
       <div className=" lg:py-16 text-[#fff]">
+        <h2 className=" relative md:pl-16 pl-10 xl:pl-28 lg:pl-24 mt-10 font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        Creative Artist{" "}
+        <span className="border-t-4 border-indigo-500 absolute top-3 ml-4">
+          --------
+        </span>
+        </h2>
+
         <h1 className="text-white md:pl-16 pl-10 xl:pl-28 lg:pl-24 mt-10 text-4xl font-semibold mb-8">
           Top Sellers
         </h1>

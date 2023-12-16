@@ -32,8 +32,14 @@ const cards = [
 function HowItWorks() {
   return (
     <div>
-      <div className="text-[#fff]">
-        <div className="lg:flex justify-between w-[90%] mx-auto  pt-20">
+      <div className="text-[#fff] pt-20">
+            <h2 className=" mx-28 relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:hidden xl:block hidden">
+            How It Works{" "}
+              <span className="border-t-4 border-indigo-500 absolute top-3 ml-4">
+                --------
+              </span>
+            </h2>
+        <div className="lg:flex justify-between w-[90%] mx-auto  pt-3">
           <h1 className=" text-2xl md:text-4xl font-bold mb-5 px-10">
             Create and sell your NFTs
           </h1>

@@ -56,8 +56,15 @@ function MostPopular() {
     <div>
 
       <div className="text-[#fff]">
+      <h2 className=" relative md:pl-16 pl-10 xl:pl-28 lg:pl-24 mt-10 font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        Most Popular{" "}
+        <span className="border-t-4 border-indigo-500 absolute top-3 ml-4">
+          --------
+        </span>
+        </h2>
 
         <div className="lg:flex justify-between w-[83%] mx-auto m-5">
+          
           <h1 className=" text-2xl md:text-4xl font-bold mb-5">
             Popular Collections
           </h1>

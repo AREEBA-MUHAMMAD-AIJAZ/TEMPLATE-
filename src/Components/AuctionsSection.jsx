@@ -59,6 +59,27 @@ const LiveAuction = () => {
   return (
     <>
      <div className="container m-0 px-4 md:px-10  xl:px-28 pt-32 mx-10 xl:mx-0">
+
+             <h2 className=" relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+             Auctions{" "}
+              <span className="border-t-4 border-indigo-500 absolute top-3 ml-4">
+                --------
+              </span>
+              </h2>
+
+          <div className="text-[#fff]">
+            <div className="lg:flex justify-between w-[98%]  my-5">
+               <h1 className=" text-2xl md:text-4xl font-bold mb-5">
+               Live Auctions
+               </h1>
+                <a
+                href="#"
+                className="text-sm md:text-lg font-bold hover:text-blue-800"
+                >
+                Explore More <span>&rarr;</span>
+                </a>
+            </div>
+          </div>
         <Swiper
         breakpoints={{
           1024: {
